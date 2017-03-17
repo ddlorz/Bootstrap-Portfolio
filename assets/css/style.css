@@ -1,0 +1,203 @@
+* {
+	color: #777777;
+	margin: 0;
+}
+p {
+	font-family: 'Arial';
+}
+h1 { 
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+h2 {
+   	display: block;
+    font-size: 1.17em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+h1, h2, h3, h4 {
+	font-family: 'Georgia';.
+}
+html, body {
+	height: 100%;
+	background-image: url("../images/ignasi_pattern_s.png");
+}
+nav {
+	margin: 24px 0 24px 0;
+	white-space: nowrap;
+}
+.mainContent {
+	margin: 0 auto;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	width: 960px;
+	background-color: #ebebeb
+}
+section {
+	width: 610px;
+	padding: 20px 20px 20px 20px;
+	background-color: #ffffff;
+}
+form {
+	width: 610px;
+	padding: 20px 20px 20px 20px;
+	background-color: #ffffff;
+}
+aside {
+	width: 250px;
+	height: 130px;
+	padding: 20px 10px 20px 10px;
+	background-color: #ffffff;
+}
+a {
+	text-decoration: none;
+}
+input, textarea {
+	width: 610px;
+	height: 25px;
+	margin: 10px 0 10px 0;
+	border-color: #cccccc;
+	border-style: solid;
+}
+.floatRight {
+	float: right;
+}
+
+.floatLeft {
+	float: left;
+}
+.container {
+	width: 960px;
+	background-color: #ffffff;
+	margin: 0 auto;
+}
+.borderGray {
+	color: #cccccc;
+	padding: 0;
+}
+.profilePic{
+	margin-right: 20px;
+	float: left;
+	width: 200px;
+	height: 150px;
+}
+.firstHeader {
+	color: #4ca9a4;
+	margin: 0 auto;
+	padding: 15px 0 20px 0;
+}
+.connectMe {
+	color: #4ca9a4;
+	margin: 15px 0 15px 0;
+	text-align: center;
+}
+.connectIcons {
+	width: 60px;
+	height: 60px;
+	margin: 8px;
+}
+.connectBar {
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.topBar {
+	width: 100%;
+	background-color: #ffffff;
+	overflow: hidden;
+}
+.footerNote {
+	font-size: 9pt;
+	text-align: center;
+	color: #ffffff;
+}
+header > h1 {
+	background-color: #4ca9a4; 
+	padding: 20px;
+	color: #ffffff;
+	margin: 0 auto;
+}
+footer {
+	clear: both;
+	position: relative;
+	top: 30px;
+	border-top-style: solid;
+	border-width: 5px;
+	border-color: #4ca9a4;
+	background-color: #666666;
+	padding: 25px 0 25px 0;
+	width: 100%;
+}
+.wrapper {
+		min-height: 100%;
+		margin-bottom: -14px;
+}
+.footer, .push {
+		height: 14px;
+}
+.linkAnimate:hover {
+	text-decoration: underline;
+}
+.connectIcons:hover {
+	opacity: 0.5;
+}		
+.submitButton {
+	color: #ffffff;
+	height: 50px;
+	width: 120px;
+	background-color: #4ca9a4;
+	font-size: 1.17em;
+}
+.leftSide {
+	float: left;
+	margin: 0 10px 0 5px;
+	width: 270px;
+	height: 200px;
+}
+.rightSide {
+	float: right;
+	margin: 0 5px 0 10px;
+	width: 270px;
+	height: 200px;
+}
+.blueBox {
+	text-align: center;
+	background-color: #4ca9a4;
+	width: 270px;
+	padding: 15px 0 15px 0;
+	color: #ffffff;
+	position: relative;
+	bottom: 60px;			
+}
+@media screen and (max-width: 980px) {
+    .topbar {
+    	width: 100%;
+    }
+    .container {
+       	width: 90%;
+    }
+    .mainContent {
+    	width: 90%;    	
+    }
+    section {
+    	width: 572px;
+    }
+    aside {
+    	width: 234px;
+    }
+    footer {
+    	width: 100%;
+    }
+    .connectIcons {
+    	width: 56px;
+    	height: 56px;
+    }
+
+}
