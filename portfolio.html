@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us" style="height: 100%; margin: 0;">
+<html lang="en-us">
 <head>
   <title>Domingo Loria</title>
   <meta charset="UTF-8">
@@ -9,11 +9,13 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
  
   <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+    }
     body {
       background-color: black;
       background: url("assets/images/ignasi_pattern_s.png"); 
-      height: 100%;
-      margin: 0;
     }
     h1, h2, h3, h4 {
       font-family: 'Georgia';.
@@ -35,8 +37,8 @@
     }
     p {
       font-family: 'Arial';
-      font-size: 12pt; 
-      line-height: 1.8;
+      font-size: 11pt; 
+      line-height: 1.7;
     }
     h1 {
       display: block;
@@ -59,16 +61,34 @@
     }
     .profilePic {
        float: left; 
-       margin: 0 15px 7px 0;
+       margin: 0 15px 10px 0;
+    }
+    .blueBox {
+      background-color: #4ca9a4;
+      width: 100%;
+      padding: 4% 0 4% 0;
+      color: #ffffff;
+      position: relative;
+      bottom: 85px;     
+    }
+    .fullWidth {
+      width: 100%;
     }
     @media screen and (max-width: 992px) {
       .mainRow {
         background-color: #ffffff;
       }
+      .blueBox {
+        bottom: 150px;
+        font-size: 20pt;
+      }
     }
     @media screen and (max-width: 768px) {
       .navbar-header {
         width: 102%;
+      }
+      .blueBox {
+        width: 100%;
       }
     }
   </style>
@@ -95,16 +115,37 @@
       <div class="row mainRow">
         <div class="col-md-9 whiteBG">
           <div class="page-header" style="border-bottom: 2px solid #cccccc;">
-            <h2>About Me</h2>
+            <h2>Portfolio</h2>
           </div>
           <div class="row">
-            <div class="col-md-12">
-              <img src="assets/images/catman.jpg" alt="My Picture" class="img-thumbnail img-fluid profilePic">
-              <p>Domingo is a native of the Philippines. His path to engineering started when his father opened an internet cafe in 1996. He supported his father by working in the cafe (kitchen, warehouse, grocery, etc.). He continued his studies and obtained a Bachelor's degree in Electrical Engineering. He began his professional career in the oil and gas field by drilling for "black" gold.<br><br>
-              Domingo was admitted to the prestigious Philippine Science High School where he graduated. He went on to pursue a degree in Computer Science at Bicol University. He was heavily involved in the city's video game society and participated in competitions. He competed in chess tournaments as well. The university's statistics team invited him for an inter-university event; however, he was unable to participate because he immigrated to America.<br><br>
-              He has been recognized by Eta Kappa Nu and Tau Beta Pi honor society. He earned his BS in Electrical Engineering at Texas A M University Kingsville campus where he graduated Magna Cum Laude. He worked in the oil and gas industry for six years as a Field Engineer. His specialty was drilling in the remote areas of Pennsylvania, West Virginia, and Ohio. He eventually retired from the oil and gas industry after years of a weakening oil market fueled by volatility and politics.<br><br>
-              Domingo is currently involved in real estate investing. He is studying software development and will pursue a Masters in Computer Science in 2018. Domingo likes to read technical journeys and news magazines. One of his favorite shows is "Parts Unknown" hosted by CNN's Anthony Bourdain. He stays fit by practicing Brazilian Jiu Jitsu, break dancing and occasional golf outings.</p><br>
+            <div class="col-md-6">
+              <a href=#><img src="assets/images/animal1.jpg" alt="Animal" class="fullWidth">
+              <h4 class="blueBox navbar-header text-center">Animal</h4></a>
             </div>
+            <div class="col-md-6">
+              <a href=#><img src="assets/images/nature1.jpg" alt="Nature" class="fullWidth">
+              <h4 class="blueBox navbar-header text-center">Nature</h4></a>
+            </div> 
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <a href=#><img src="assets/images/city1.jpg" alt="City" class="fullWidth">
+              <h4 class="blueBox navbar-header text-center">City</h4></a>
+            </div>
+            <div class="col-md-6">
+              <a href=#><img src="assets/images/transport1.jpg" alt="Transport" class="fullWidth">
+              <h4 class="blueBox navbar-header text-center">Transport</h4></a>
+            </div> 
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <a href=#><img src="assets/images/food1.jpg" alt="Food" class="fullWidth">
+              <h4 class="blueBox navbar-header text-center">Food</h4></a>
+            </div>
+            <div class="col-md-6">
+              <a href=#><img src="assets/images/people1.jpg" alt="People" class="fullWidth">
+              <h4 class="blueBox navbar-header text-center">People</h4></a>
+            </div> 
           </div>
         </div>
 
