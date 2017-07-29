@@ -3,7 +3,7 @@
 Bootstrap Portfolio is a personal portfolio created using Bootsrap Framework.
 
 ## URL 
-https://djrloria.github.io/Basic-Portfolio/
+https://djrloria.github.io/Bootstrap-Portfolio/
 
 ## Technologies Used
 - HTML
